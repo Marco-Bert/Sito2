@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    width: 100%;
+}
+thead tr th {
+    background: yellow;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+}
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+}
+.tg .tg-record {
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top
+}
+
+.altro {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.titolo {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
